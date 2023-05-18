@@ -7,6 +7,7 @@ ataccc_posterior_summary_stats = function(estimate = "hakki", summary_fun = ggdi
         summary_fun(...)
 }
 
+#' @importFrom stats rbeta
 logit_hazard_matrix = function(estimate) {
     read_data(estimate) |>
         filter(between(time, 1, 40)) |>
