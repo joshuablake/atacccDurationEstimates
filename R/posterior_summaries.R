@@ -29,5 +29,5 @@ ataccc_logit_hazard_mean = function(estimate = "hakki") {
 #' @export
 ataccc_logit_hazard_covar = function(estimate = "hakki") {
     logit_hazard_matrix(estimate) |>
-        covar()
+        stats::cov()
 }
