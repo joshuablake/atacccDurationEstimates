@@ -1,4 +1,5 @@
-read_data = function(estimate) {
+#' @export 
+ataccc_posterior_samples = function(estimate = "hakki") {
     switch(
         estimate,
         hakki = hakki_duration,

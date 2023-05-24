@@ -2,6 +2,8 @@
 
 export(ataccc_logit_hazard_covar)
 export(ataccc_logit_hazard_mean)
+export(ataccc_posterior_means)
+export(ataccc_posterior_samples)
 export(ataccc_posterior_summary_stats)
 import(dplyr)
 import(tidyr)
