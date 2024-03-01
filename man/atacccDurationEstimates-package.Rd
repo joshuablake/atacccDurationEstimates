@@ -4,12 +4,12 @@
 \name{atacccDurationEstimates-package}
 \alias{atacccDurationEstimates}
 \alias{atacccDurationEstimates-package}
-\title{atacccDurationEstimates: What the Package Does (One Line, Title Case)}
+\title{atacccDurationEstimates: Estimes of the Distribution of the Duration of RT-PCR Positivity based on ATACCCC data}
 \description{
-What the package does (one paragraph).
+RT-PCR duration has been estimated by using a viral load model. This package contains the posterior estimates.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Joshua Blake \email{joshua.blake@mrc-bsu.cam.ac.uk} (\href{https://orcid.org/0000-0001-7522-3741}{ORCID})
 
 }
 \keyword{internal}

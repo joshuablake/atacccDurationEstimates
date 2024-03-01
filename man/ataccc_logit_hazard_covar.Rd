@@ -6,6 +6,9 @@
 \usage{
 ataccc_logit_hazard_covar(estimate = "hakki")
 }
+\arguments{
+\item{estimate}{The estimate to use, either "hakki" or "original"}
+}
 \description{
 A vector of the covariance of logit(hazard), starting from time 1
 }
