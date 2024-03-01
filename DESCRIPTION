@@ -1,6 +1,6 @@
 Package: atacccDurationEstimates
 Title: Estimes of the Distribution of the Duration of RT-PCR Positivity based on ATACCCC data
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Joshua",
            family = "Blake",
@@ -14,9 +14,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends: 
     R (>= 2.10)
-Suggests: 
-    ggdist
 Imports: 
     dplyr,
+    ggdist,
     rlang,
     tidyr
